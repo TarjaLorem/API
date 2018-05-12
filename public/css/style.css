@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: 'IndieFlower';
+    src: url(../fonts/IndieFlower.ttf);
+}
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url(../fonts/Nunito-Regular.ttf);
+}
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url(../fonts/Nunito-Bold.ttf);
+}
+@font-face {
+    font-family: 'Righteous-Regular';
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+body {
+    background: #A4A4A4;
+}
+.wrapper-list {
+    background: rgba(255,255,255,0.77);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    font-family: IndieFlower;
+    font-size: 40px;
+    font-weight: 900;
+    color: #272749;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 50px 0;
+}
+.left-list {
+    display: flex;
+    flex-direction: column;
+}
+.city-weather {
+    font-family: Righteous-Regular;
+    font-size: 15px; 
+    cursor: pointer;
+}
+.weather-text {
+    font-family: Righteous-Regular;
+    font-size: 17px;
+}
+.weather-img {
+    height: 70px;
+    width: 70px;
+}
+.city-button {
+    width: 200px;
+    font-family: Nunito-Bold; 
+    font-size: 16px;
+	color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all 0.1s;
+    background: #3E488D;
+    margin: 20px auto 10px;
+}
+.city-button:hover {
+    background: #3F5780;
+}
+.right-list {
+    display: flex;
+    flex-direction: column;
+}
+.weather {
+    margin: 0 55px;
+}
+#city {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 150px;
+    width: 300px;
+    margin: 25px 20px;
+    border-bottom: 1px solid #8A8A8A;
+    border-top: 1px solid #8A8A8A;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track { 
+    box-shadow: inset 15px 15px 15px #CACACA;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6C6C6C; 
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5E5E5E; 
+}
