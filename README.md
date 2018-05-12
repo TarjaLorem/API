@@ -10,10 +10,10 @@
 
 ### Install:
 ```sh
- $ npm install;
- $ npm init;
- $ npm install express -g;
- $ npm install express --save-dev;
+ $ npm install
+ $ npm init
+ $ npm install express -g
+ $ npm install express --save-dev
  $ npm install express body-parser ejs
   ```
   
