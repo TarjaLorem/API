@@ -48,12 +48,16 @@ body {
 }
 .city-weather {
     font-family: Righteous-Regular;
-    font-size: 15px; 
+    font-size: 17px; 
     cursor: pointer;
+    color: #13153C;
+    padding: 2px 5px;
 }
 .weather-text {
     font-family: Righteous-Regular;
     font-size: 17px;
+    letter-spacing: 1px;
+    color: #13153C;
 }
 .weather-img {
     height: 70px;
@@ -78,27 +82,25 @@ body {
     flex-direction: column;
 }
 .weather {
-    margin: 0 55px;
-}
+    margin: 0 55px;}
 #city {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 150px;
     width: 300px;
     margin: 25px 20px;
-    border-bottom: 1px solid #8A8A8A;
-    border-top: 1px solid #8A8A8A;
+    background: #fff;
+    -webkit-box-shadow: -2px 3px 6px 1px rgba(138,138,138,1);
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
 }
 ::-webkit-scrollbar-track { 
-    box-shadow: inset 15px 15px 15px #CACACA;
-    border-radius: 25px;
+    box-shadow: inset 25px 1px 1px #CACACA;
 }
 ::-webkit-scrollbar-thumb {
     background: #6C6C6C; 
-    border-radius: 25px;
+    border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #5E5E5E; 
