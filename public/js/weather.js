@@ -7,6 +7,10 @@ $(document).ready(function() {
                 out +=`<p class='city-weather' value='${data[i].id}'>${data[i].name}</p>`;
             };
             $("#city").html(out);
+            $("#city .city-weather").sort(asc_sort).appendTo("#city");
+            function asc_sort(a, b){
+                    return ($(b).text()) < ($(a).text()) ? 1 : -1;    
+            };
             $("#city .city-weather").on("click", (e) => {
                 $.get(
                     "http://api.openweathermap.org/data/2.5/weather",
