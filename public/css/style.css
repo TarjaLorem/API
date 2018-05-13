@@ -82,7 +82,10 @@ body {
     flex-direction: column;
 }
 .weather {
-    margin: 0 55px;}
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px;
+}
 #city {
     overflow-y: scroll;
     overflow-x: hidden;

@@ -24,8 +24,7 @@ $(document).ready(function() {
                             out +="<span class='weather-text'>Weather: "+data.weather[0].main+"</span></br>";
                             out +="<span class='weather-text'>Temperature: "+Math.round(data.main.temp-273)+"&#176;C</span><br>";
                             out +="<span class='weather-text'>Humidity: "+data.main.humidity+"%</span><br>";
-                            out +="<span class='weather-text'>Pressure: "+Math.round(data.main.pressure*0.0075006375541921*100)+" mm hg</span><br>";
-                            console.log(data.main);
+                            out +="<span class='weather-text'>Pressure: "+Math.round(data.main.pressure*0.0075006375541921*100-25)+" mm hg</span><br>";
                             $(".weather").html(out);
 
                         }
