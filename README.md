@@ -1,23 +1,21 @@
 # Weather API
-### API прогнозу погоди на текучий момент
-#### Для реалізації було задіяно:
-- ресурс https://openweathermap.org/;
+### API of a weather forecast for present day
+#### For project involved:
+- source https://openweathermap.org/;
 - jQuery 3.2.1;
 - node.js;
-- модуль express.js;
-- шаблонізатори;
-- json-файли в якості БД;
+- module express.js;
+- templates;
+- json-files as a DB;
 
 ### Install:
 ```sh
  $ npm install
   ```
   
-### Не забуваємо запустити веб-сервер:
-- вводимо команду node server (у відповідь має прийти "Server on");
-- прописуємо в адресній стрічці браузера localhost:3000. 
+### Don't forget run a web-server:
+- enter command node server (the responce will be "Server on");
+- write localhost:3000 in address bar. 
 
-### Як результат - підвантажується сторінка, де ви можете перевірити саму роботу
-
-#### Кількість запитів на зміну погоди: 
-  - 60 запитів на хвилину.
+#### Count of requests: 
+  - 60 requests on one minute.
